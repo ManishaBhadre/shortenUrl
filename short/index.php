@@ -109,7 +109,7 @@
 					return false;
 				}
 				
-				//when url text field is contain value
+				//when url text field is contain a value
 				$.post('includes/process.php', {
 					url: url
 				}, function(data, textStatus, xhr) {
